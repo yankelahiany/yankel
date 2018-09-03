@@ -31,14 +31,17 @@
 	<link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/tooltipster-sideTip-noir.min.css"/>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
+	
+	
 </head>
 
 <body class="is-split-layout">
 
 
 	<!-- BG IMAGE / VIDEO -->
-    <div class="media" id="background" ></div>
+    <div class="media mobileHide" id="background" ></div>
+	
+	<div class="media mobileShow" style="background-image:url(images/banner-6.jpg)"></div>
 
     <!-- CONTENT-WRAP -->
     <div class="content-wrap">
@@ -125,6 +128,7 @@
 			$('#background').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 		});
 	</script>
+	
     
 
 </body>
