@@ -19,3 +19,6 @@ function openImg3(imgs) {
 	//imgText.innerHTML = imgs.alt;
 	expandImg.parentElement.style.display = "block";
 }
+$(document).ready( function(){
+	$('.gif').gifplayer();
+});
