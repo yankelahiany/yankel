@@ -1,7 +1,7 @@
 .title{
 	min-height:250px;
 }
-		
+
 @media screen and (max-width: 1000px) {
 	.title{
 		min-height:90px;
@@ -9,21 +9,21 @@
 }
 
 .fa-btc{
-	display: inline-block; 
-	margin: 8px 2px 8px 0; 
-	text-decoration: none; 
+	display: inline-block;
+	margin: 8px 2px 8px 0;
+	text-decoration: none;
 	user-select: none;
 }
 .fa-btc:before {
-	display: inline-block; 
-	padding: 0; 
-	text-align: center; 
-	font-size: 14px; 
-	width: 32px; 
-	line-height: 32px; 
-	color: #555; 
-	border: 1px solid #eee; 
-	border-radius: 50%; 
+	display: inline-block;
+	padding: 0;
+	text-align: center;
+	font-size: 14px;
+	width: 32px;
+	line-height: 32px;
+	color: #555;
+	border: 1px solid #eee;
+	border-radius: 50%;
 	text-decoration: none; t
 	ransition: all 0.3s;
 	color: #FF9900;
@@ -42,4 +42,99 @@
 }
 @media screen and (min-width: 500px) {
     .mobileShow   { display:none; }
+
 }
+@media screen and (min-width: 1100px){
+	.fancybox-slide--iframe .fancybox-content {
+
+	    max-width  : 60%;
+	    max-height : 95%;
+	    margin: 0;
+		}
+}
+
+
+
+/* Project page */
+.column {
+		float: left;
+		width: 25%;
+		padding: 10px;
+}
+.column2 {
+		float: left;
+		width: 33%;
+		padding: 10px;
+}
+.column img {
+		opacity: 0.8;
+		cursor: pointer;
+}
+.column img:hover {
+		opacity: 1;
+}
+.column2 img {
+		opacity: 0.8;
+		cursor: pointer;
+}
+.column2 img:hover {
+		opacity: 1;
+}
+.row:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+.container {
+		position: relative;
+		display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
+		color: white;
+		font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		color: white;
+		font-size: 35px;
+		cursor: pointer;
+}
+
+div.fixed {
+    position: fixed;
+    top: 10px;
+    right: 60px;
+    width: 10px;
+
+}
+
+.buttonHome {
+	border: 2px solid #222;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 1;
+	color: #222;
+	text-decoration: none;
+	background: none;
+	cursor: pointer;
+	padding: 8px 16px;
+	margin: 5px 10px 0 0;
+	display: inline-block;
+	outline: none;
+	position: relative;
+	transition: all 0.3s;
+	overflow: hidden;
+	}
+
+	.buttonHome.rounded {
+		border-radius: 50px;
+		}
