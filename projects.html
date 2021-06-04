@@ -31,123 +31,13 @@
 <body>
   <div class="content-wrap">
     <div class="content">
-			<!--<div class="fixed mobileShow"><a class="rounded buttonHome icon-home" href="index.html"></a></div>-->
-
-			<h1 id="projets-universitaires"><span class="highlight purple">Projets</span> universitaires</h1>
-			<p><em class="text purple">Réalisé au sein d’un cours universitaire</em></p>
-			<ol>
-				<li><a class="link-1" href="#bateau">Bateau automatisé de nettoyage côtier</a></li>
-				<li><a class="link-1" href="#voiture-telecommandee">Voiture télécommandée</a> - développement de contrôleur et microcontrôleur pour un système mécatronique réaliste.</li>
-				<li><a class="link-1" href="#robot-mobile">Processus d’automatisation d’un robot mobile avec vision par ordinateur</a></li>
-				<li><a  class="link-1" href="#gyroscope">Fabrication d’un objet (gyroscope) en aluminium</a> en utilisant des procédés de fabrication par machine (tour et fraiseuse). Observation du même procédé par machine-outil à commande numérique (CNC).</li>
-			</ol>
-			<h2 id="1-a-name-bateau-bateau-automatis-de-nettoyage-c-tier-a-">1. <a name="bateau">Bateau <span class="text coral">automatisé</span> de nettoyage côtier</a></h2>
-			<p><em>MATLAB, Simulink, microcontrôleur Arduino, Raspberry Pi, Python, OpenCV, SolidWorks, Linux</em></p>
-			<p>Un bateau autonome, reconnaissant les déchets à la surface de l’eau et se propulsant pour les ramasser à l’aide d’un système de filet. Le bateau se recharge grâce à l'énergie solaire et effectue une ronde journalière à une heure et un périmètre prédéterminé. Ce projet est le résultat d’un travail en équipe de six personnes ayant chacune des affinités dans une des facettes du projet. La combinaison de nos points fort à mener à bien ce projet. La durée de ce projet à été de deux semestre universitaire (environ huit mois). Les différentes facettes du projet étant, la conception et l’analyse mécanique du bateau en soit, l’utilisation de régulateur PID afin de mouvoir le bateau, et l’inclusion synergique d’un ordinateur sur le bateau ordonnant le mouvement. J’ai travaillé sur cette dernière partie, en codant en Python grâce au framework OpenCV un script étant capable de reconnaître un objet sur la surface de l’eau et d’y inclure les commandes nécessaires au mouvement du filet ainsi que des moteurs pour attraper l'objet repéré.</p>
+			<h1 id="projets-universitaires"><span class="highlight blue">Projects</span></h1>
 			<ul>
-				<li>Le régulateur PID est modélisé en utilisant MATLAB.  </li>
-				<li>La conception du bateau est modélisée sur SolidWorks.  </li>
-				<li>Le code python est exécuté sur une distribution adéquate de Linux sur Raspberry Pi (Raspbian).  </li>
-				<li>Le contrôleur Arduino est aussi commandé directement grâce au Raspberry Pi.  </li>
-				<li>Un mode manuel télécommandé est aussi implémenté pour test.</li>
+				<li><a class="link-2" href="websites.html"><span class="text">Web Sites and Apps</span> projects</a></li>
+                <li><span class="text green">Microcontroller</span> Projects | 🔨</li>
+                <li><span class="text red">3D Printing</span> Projects | 🔨</li>
+				<li><a class="link-2" href="university.html">Projets universitaires</a></li>
 			</ul>
-
-			<div class="row">
-			  <div class="column">
-					<img alt="Photo projet bateau 1" onclick="openImg(this);" src="images/projets/bateau-1.jpg">
-			  </div>
-			  <div class="column">
-			    <img alt="Photo projet bateau 2" onclick="openImg(this);" src="images/projets/bateau-2.jpg">
-			  </div>
-			  <div class="column">
-			    <img alt="Photo projet bateau 3" onclick="openImg(this);" src="images/projets/bateau-3.jpg">
-			  </div>
-			  <div class="column">
-			    <img alt="Photo projet bateau 4" onclick="openImg(this);" src="images/projets/bateau-4.jpg">
-			  </div>
-			</div>
-
-			<div class="container" style="display:block">
-			  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-				<img id="expandedImg" style="width:100%" alt="Photo projet bateau 4" src="images/projets/bateau-4.jpg">
-			  <div id="imgtext"></div>
-			</div>
-			<p>
-				<img class="gif" data-wait="true" alt="Video projet bateau" style="width:100%" src="images/projets/bateau-5.jpg">
-			</p>
-			<h2 id="2-a-name-voiture-telecommandee-voiture-t-l-command-e-a-">2. <a name="voiture-telecommandee">Voiture télécommandée</a></h2>
-			<p><em>C++, Visual Studio, microcontrôleur Arduino, langage assembleur, robotique</em></p>
-			<p>Construire une voiture télécommandée en utilisant un microcontrôleur arduino, la difficulté du projet réside dans l’utilisation du registre et de la programmation en assembleur. Il s’agit d’optimiser le code pour une exécution plus fluide et dynamique ainsi que d’obtenir un meilleur contrôle sur la mémoire.</p>
-			<ul>
-				<li>Architecture de microcontrôleur: ATmega328P et outils de développement  </li>
-				<li>Entrée et sortie numériques (E/S parallèles, E/S série)  </li>
-				<li>Communication (SPI, I2C, sans fil)  </li>
-				<li>Programmation en langage C ++ et assembleur pour microcontrôleurs  </li>
-				<li>Mécatronique</li>
-			</ul>
-			<img alt="Photo projet voiture telecommandee" style="width:100%" src="images/projets/voiture-arduino.jpg">
-			<h2 id="3-a-name-robot-mobile-processus-d-automatisation-d-un-robot-mobile-avec-vision-par-ordinateur-a-">3. <a name="robot-mobile">Processus d’automatisation d’un robot mobile avec <span class="text coral">vision par ordinateur</span></a></h2>
-			<p><em>C++, vision par ordinateur, Visual Studio, microcontrôleur Arduino, robotique</em></p>
-			<p>Développement d’un robot mobile contrôlé par un processus d’automatisation avec vision par ordinateur. Une camera est connecté à l’ordinateur, le robot est identifié ainsi que les obstacles et buts sur l’ordinateur et celui-ci envoie les commandes nécessaires pour mouvoir le robot et lui permettre de réagir aux mouvements repérés. Dans ce scénario, deux robots s’attaquent en s’envoyant des balles de ping-pong. Il s’agit d’éviter les balles et de contre attaquer pour toucher l’adversaire. Le robot intègre des actuateurs lui permettant de se mouvoir ainsi qu’un système de projectile afin d’attaquer l’adversaire.</p>
-			<ul>
-				<li>Programmation en C++ pour la mécatronique et l’automatisation  </li>
-				<li>Vision par ordinateur et analyse de l’image  </li>
-				<li>Modélisation et simulation des paramètres  </li>
-				<li>Commande de rétroaction (Feedback Loop)  </li>
-				<li>Optimisation et génération des trajectoires</li>
-			</ul>
-			<div class="row">
-			  <div class="column">
-					<img alt="Photo projet robot mobile 1" onclick="openImg2(this);" src="images/projets/robot-mobile-1.jpg">
-			  </div>
-			  <div class="column">
-			    <img alt="Photo projet robot mobile 2" onclick="openImg2(this);" src="images/projets/robot-mobile-2.jpg">
-			  </div>
-			  <div class="column">
-			    <img alt="Photo projet robot mobile 3" onclick="openImg2(this);" src="images/projets/robot-mobile-3.jpg">
-			  </div>
-			  <div class="column">
-			    <img alt="Photo projet robot mobile 4" onclick="openImg2(this);" src="images/projets/robot-mobile-4.jpg">
-			  </div>
-			</div>
-
-			<div class="container" style="display:block">
-			  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-				<img id="expandedImg2" style="width:100%" alt="Photo projet robot mobile 2" src="images/projets/robot-mobile-2.jpg">
-			  <div id="imgtext"></div>
-			</div>
-
-			<h2 id="4-a-name-gyroscope-gyroscope-a-">4. <a name="gyroscope">Gyroscope</a></h2>
-			<div class="row">
-				<div class="column2">
-					<img alt="Photo projet gyroscope 1" onclick="openImg3(this);" src="images/projets/gyroscope-1.jpg">
-				</div>
-				<div class="column2">
-					<img alt="Photo projet gyroscope 2" onclick="openImg3(this);" src="images/projets/gyroscope-2.jpg">
-				</div>
-				<div class="column2">
-					<img alt="Photo projet gyroscope 3" onclick="openImg3(this);" src="images/projets/gyroscope-3.jpg">
-				</div>
-			</div>
-			<div class="row">
-				<div class="column2">
-					<img alt="Photo projet gyroscope 4" onclick="openImg3(this);" src="images/projets/gyroscope-4.jpg">
-				</div>
-				<div class="column2">
-					<img alt="Photo projet gyroscope 5" onclick="openImg3(this);" src="images/projets/gyroscope-5.jpg">
-				</div>
-				<div class="column2">
-					<img alt="Photo projet gyroscope 6" onclick="openImg3(this);" src="images/projets/gyroscope-6.jpg">
-				</div>
-			</div>
-
-			<div class="container" style="display:block">
-				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-				<img id="expandedImg3" style="width:100%" alt="Photo projet gyroscope 4" src="images/projets/gyroscope-4.jpg">
-				<div id="imgtext"></div>
-			</div>
-			<br>
-			<a class="link-2 mobileShow" href="index.html">Yankel Lahiany</a>
     </div>
   </div>
 
